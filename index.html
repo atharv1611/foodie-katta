@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Foodie Katta Food Delivery</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0; padding: 0;
+      background-color: #fefefe;
+    }
+    header {
+      background-color: #ff4c4c;
+      color: white;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      background-image: url('https://images.unsplash.com/photo-1600891964599-f61ba0e24092');
+      background-size: cover;
+      background-position: center;
+      height: 400px;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-shadow: 2px 2px 4px #000;
+    }
+    .hero h1 {
+      font-size: 3em;
+    }
+    .section {
+      padding: 40px;
+      text-align: center;
+    }
+    .dishes {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      flex-wrap: wrap;
+    }
+    .dish {
+      border: 1px solid #ddd;
+      padding: 15px;
+      border-radius: 10px;
+      width: 200px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .dish img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    footer {
+      background-color: #333;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div><strong>QuickBite</strong></div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Menu</a>
+      <a href="#">Order</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <h1>Delicious Food Delivered Fast</h1>
+  </div>
+
+  <div class="section">
+    <h2>Popular Dishes</h2>
+    <div class="dishes">
+      <div class="dish">
+        <img src="4.jpg" alt="Pizza">
+        <h3>Cheesy Pizza</h3>
+        <p>₹299</p>
+      </div>
+      <div class="dish">
+        <img src="5.jpg" alt="Burger">
+        <h3>Juicy Burger</h3>
+        <p>₹199</p>
+      </div>
+      <div class="dish">
+        <img src="6.jpg" alt="Pasta">
+        <h3>french fries</h3>
+        <p>₹249</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section" style="background-color: #fff0f0;">
+    <h2>Contact Us</h2>
+    <p>📞 +91-9876543210</p>
+    <p>📧 support@quickbite.com</p>
+  </div>
+
+  <footer>
+    &copy; 2025 QuickBite. All rights reserved.
+  </footer>
+
+</body>
+</html>
